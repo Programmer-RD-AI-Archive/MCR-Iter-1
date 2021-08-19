@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block head %}
+<title>
+    Login
+</title>
+{% endblock %}
+
+{% block body %}
+<br>
+<div class="jumbotron">
+    <hr>
+    <form method="POST" action="">
+        <div class="form-group">
+            <label for="exampleInputEmail1"> Institute Name </label>
+            <input type="text" class="form-control" name="User Name" autocomplete="off" id="User Name"
+                aria-describedby="emailHelp" placeholder="Enter User Name">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1"> Institute Password </label>
+            <input type="password" class="form-control" autocomplete="off" name="Password" id="Password"
+                aria-describedby="emailHelp" placeholder="Enter Password">
+        </div>
+        <hr>
+        <button type="submit" class="btn btn-primary"> Submit </button>
+</div>
+</form>
+</div>
+<br>
+{% endblock %}

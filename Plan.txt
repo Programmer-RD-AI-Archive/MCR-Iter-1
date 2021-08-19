@@ -1,0 +1,3 @@
+New Account (The user_name and the password and all the information is saved as Info is saved in a session) -> They can go to the main page with out going through login page.
+login -> user_name and password and info that is returned from the daatbasr
+###########################################################
